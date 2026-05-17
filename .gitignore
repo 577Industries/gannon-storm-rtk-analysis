@@ -51,8 +51,11 @@ Thumbs.db
 .env.*
 !.env.example
 
-# Data caches (large; pulled at runtime)
-data/
+# Data caches (large; pulled at runtime via `make fetch`).
+# Specifically: data/cors/*.gz (CORS RINEX, ~500 KB each, 175 files)
+# and data/swpc/*.txt (Kp + Dst archives).
+data/cors/
+data/swpc/
 *.parquet
 *.feather
 
