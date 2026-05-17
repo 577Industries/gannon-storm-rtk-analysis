@@ -51,7 +51,7 @@ def _add_footer(fig: Figure) -> None:
     fig.text(
         0.01,
         0.005,
-        f"{DATA_FOOTER}\nGenerated {ts} | 577 Industries Inc. | github.com/577-Industries/gannon-storm-rtk-analysis",
+        f"{DATA_FOOTER}\nGenerated {ts} | 577 Industries Inc. | github.com/577Industries/gannon-storm-rtk-analysis",
         ha="left",
         va="bottom",
         fontsize=6,

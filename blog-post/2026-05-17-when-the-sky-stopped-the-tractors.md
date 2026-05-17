@@ -36,7 +36,7 @@ Today we're publishing the first artifact of that effort: an open, end-to-end
 reproducible analysis of how RTK error evolved during the May 10-12 storm
 across 25 NGS CORS reference stations in the IA/IL/IN/OH corridor. Code,
 data, figures, and methodology are all on GitHub at
-[`577-Industries/gannon-storm-rtk-analysis`](https://github.com/577-Industries/gannon-storm-rtk-analysis).
+[`577Industries/gannon-storm-rtk-analysis`](https://github.com/577Industries/gannon-storm-rtk-analysis).
 
 ## What actually happened up there
 
@@ -195,7 +195,7 @@ single, citable URL for every claim in the proposal.
 
 If you operate row crops in the Midwest, run an OEM telematics platform,
 or write about ag-tech for a living: **read the analysis on GitHub at**
-[`577-Industries/gannon-storm-rtk-analysis`](https://github.com/577-Industries/gannon-storm-rtk-analysis),
+[`577Industries/gannon-storm-rtk-analysis`](https://github.com/577Industries/gannon-storm-rtk-analysis),
 **fork it, run `make all`, and tell us what you'd want to see in v2.**
 We're particularly interested in receiver telemetry from operators willing
 to share it (anonymised, aggregated, no proprietary configurations
@@ -209,5 +209,5 @@ Reach out: **engineering@577industries.com**.
 *577 Industries Inc. is a Columbus, Ohio-based applied-AI company. HELIOS
 is funded under NASA SBIR Phase I subtopic SPWX.1.S26A. All public artifacts
 are released under the Apache 2.0 license. Headline image and per-station
-analysis are reproducible from the [GitHub repository](https://github.com/577-Industries/gannon-storm-rtk-analysis)
+analysis are reproducible from the [GitHub repository](https://github.com/577Industries/gannon-storm-rtk-analysis)
 using `make all`.*

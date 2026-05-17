@@ -1,6 +1,6 @@
 # gannon-storm-rtk-analysis
 
-[![CI](https://github.com/577-Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/577-Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml)
+[![CI](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PyPI](https://img.shields.io/pypi/v/gannon-storm-rtk-analysis.svg)](https://pypi.org/project/gannon-storm-rtk-analysis/)
 
@@ -39,7 +39,7 @@ StarFire, Trimble RTK, and AgLeader receiver families. See
 ## Quickstart
 
 ```bash
-git clone https://github.com/577-Industries/gannon-storm-rtk-analysis.git
+git clone https://github.com/577Industries/gannon-storm-rtk-analysis.git
 cd gannon-storm-rtk-analysis
 pip install -e '.[dev]'
 make all
@@ -105,9 +105,9 @@ press: [`blog-post/2026-05-17-when-the-sky-stopped-the-tractors.md`](blog-post/2
 
 ## Documentation
 
-- Master plan: [`helios-program`](https://github.com/577-Industries/helios-program) (private; internal team)
+- Master plan: [`helios-program`](https://github.com/577Industries/helios-program) (private; internal team)
 - Methodology: [`docs/methodology.md`](docs/methodology.md)
-- Provenance schema (sibling artifact): [`helios-provenance-spec`](https://github.com/577-Industries/helios-provenance-spec)
+- Provenance schema (sibling artifact): [`helios-provenance-spec`](https://github.com/577Industries/helios-provenance-spec)
 
 ## License
 
@@ -135,7 +135,7 @@ discussed in an issue first. Of particular interest:
   year         = {2026},
   version      = {0.1.0},
   publisher    = {577 Industries Inc.},
-  url          = {https://github.com/577-Industries/gannon-storm-rtk-analysis},
+  url          = {https://github.com/577Industries/gannon-storm-rtk-analysis},
 }
 ```
 

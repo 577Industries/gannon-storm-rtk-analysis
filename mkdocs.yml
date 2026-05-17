@@ -1,8 +1,8 @@
 site_name: gannon-storm-rtk-analysis
 site_description: "Retrospective analysis of RTK-GNSS positioning error during the May 10-12, 2024 Gannon G5 superstorm."
-site_url: "https://577-industries.github.io/gannon-storm-rtk-analysis/"
-repo_url: "https://github.com/577-Industries/gannon-storm-rtk-analysis"
-repo_name: 577-Industries/gannon-storm-rtk-analysis
+site_url: "https://577industries.github.io/gannon-storm-rtk-analysis/"
+repo_url: "https://github.com/577Industries/gannon-storm-rtk-analysis"
+repo_name: 577Industries/gannon-storm-rtk-analysis
 copyright: "Copyright 2026 577 Industries Inc."
 
 theme:
