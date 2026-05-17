@@ -14,25 +14,18 @@ result with code, data manifests, and figures any operator can examine.
 > the agronomic 2.5 cm threshold for an aggregate of ~1,300 station-hours
 > during May 10-12, 2024 (peak Kp=9.0, Dst minimum=-406 nT).
 
-(See [`results/quantitative.md`](../results/quantitative.md) for the
-per-station breakdown.)
+(See [`results/quantitative.md`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/results/quantitative.md) for the per-station breakdown on GitHub.)
 
 ## What's in here
 
-- [`stations.py`](../src/gannon_analysis/stations.py) — 25-station catalog,
-  truth coordinates from each station's day-131 RINEX header.
-- [`fetch.py`](../src/gannon_analysis/fetch.py) — polite NGS CORS RINEX
-  downloader with on-disk caching.
-- [`swpc.py`](../src/gannon_analysis/swpc.py) — GFZ Kp + Kyoto Dst archive
-  fetchers.
-- [`positioning.py`](../src/gannon_analysis/positioning.py) — v1
-  climatological 2D-error model. See [methodology](methodology.md).
-- [`analysis.py`](../src/gannon_analysis/analysis.py) — orchestrator that
-  ties fetch + indices + positioning + aggregates into one pipeline.
-- [`plotting.py`](../src/gannon_analysis/plotting.py) — four figures with
-  data/method/timestamp footers.
-- Three Jupyter notebooks for interactive exploration.
-- A 1500-word blog post draft under [`blog-post/`](../blog-post/).
+- [`stations.py`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/src/gannon_analysis/stations.py) — 25-station catalog, truth coordinates from each station's day-131 RINEX header.
+- [`fetch.py`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/src/gannon_analysis/fetch.py) — polite NGS CORS RINEX downloader with on-disk caching.
+- [`swpc.py`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/src/gannon_analysis/swpc.py) — GFZ Kp + Kyoto Dst archive fetchers.
+- [`positioning.py`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/src/gannon_analysis/positioning.py) — v1 climatological 2D-error model. See [methodology](methodology.md).
+- [`analysis.py`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/src/gannon_analysis/analysis.py) — orchestrator that ties fetch + indices + positioning + aggregates into one pipeline.
+- [`plotting.py`](https://github.com/577Industries/gannon-storm-rtk-analysis/blob/main/src/gannon_analysis/plotting.py) — four figures with data/method/timestamp footers.
+- Three Jupyter notebooks for interactive exploration ([`notebooks/`](https://github.com/577Industries/gannon-storm-rtk-analysis/tree/main/notebooks)).
+- A 1,707-word blog post draft under [`blog-post/`](https://github.com/577Industries/gannon-storm-rtk-analysis/tree/main/blog-post).
 - Tests with >70% coverage; v1 ships at ~80%.
 
 ## Reproducibility
