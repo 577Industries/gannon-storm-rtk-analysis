@@ -142,3 +142,10 @@ discussed in an issue first. Of particular interest:
 ## Contact
 
 engineering@577industries.com
+
+## Related
+
+- **HELIOS program**: [`helios-program`](https://github.com/577Industries/helios-program) — master plan, proposal companion document, orchestration scripts.
+- **Wave 1 review pack**: [Artifact D Gannon analysis review pack](https://github.com/577Industries/helios-program/blob/main/specs/2026-05-17-D-gannon-analysis-review-pack.md) — methodology disclosure, IL undersampling caveat, citation guidance.
+- **Connector library** (v2 dependency): [`helios-spaceweather-connectors`](https://github.com/577Industries/helios-spaceweather-connectors) — when CDDIS GIMs adapter ships (Wave 2b), v2 will swap the climatological model for full pseudo-range SPP via IGS ephemerides.
+- **Blog post**: [`blog-post/2026-05-17-when-the-sky-stopped-the-tractors.md`](./blog-post/2026-05-17-when-the-sky-stopped-the-tractors.md) — 1,707-word draft for 577industries.com.
