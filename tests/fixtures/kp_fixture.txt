@@ -1,0 +1,86 @@
+# PURPOSE: This file distributes the Kp index and ap index (one line per three-hour interval)
+# LICENSE: CC BY 4.0
+# SOURCE: Geomagnetic Observatory Niemegk, GFZ Helmholtz Centre for Geosciences
+# PLEASE CITE: Matzka, J., Stolle, C., Yamazaki, Y., Bronkalla, O. and Morschhauser, A., 2021. The geomagnetic Kp index 
+# and derived indices of geomagnetic activity. Space Weather, https://doi.org/10.1029/2020SW002641
+#
+# Kp, ap and Ap
+# The three-hourly equivalent planetary amplitude ap is derived from Kp and the daily equivalent planetary amplitude Ap is the daily mean of ap.
+# Kp is unitless. Ap and ap are unitless and can be multiplied by 2 nT to yield the average geomagnetic disturbance at 50 degree geomagnetic latitude.
+# Kp, ap and Ap were introduced by Bartels (1949, 1957) and are produced by Geomagnetic Observatory Niemegk, GFZ Helmholtz Centre for Geosciences.
+# Described in: Matzka et al. (2021), see reference above.
+# Data publication: Matzka, J., Bronkalla, O., Tornow, K., Elger, K. and Stolle, C., 2021. Geomagnetic Kp index. V. 1.0. GFZ Data Services, 
+# https://doi.org/10.5880/Kp.0001
+#
+# Short file description (for a detailed file description, see Kp_ap_Ap_SN_F107_format.txt):
+# 30 header lines, all starting with #
+# ASCII, blank separated and fixed length, missing data indicated by -1.000 for Kp and -1 for ap
+# YYYY MM DD is date of UT day, hh.h is starting time in hours of interval for which Kp and ap are given
+# hh._m is mid time in hours of interval for which Kp and ap are given 
+# days is days since 1932-01-01 00:00 UT to start of interval, days_m is days since 1932-01-01 00:00 UT to mid of interval
+# Kp, ap
+# D indicates if the Kp and ap values are definitive (D = 1) or preliminary (D=0)
+#
+#
+#
+#
+# The format for each line is (i stands for integer, f for float):
+#iii ii ii ff.f ff.ff fffff.fffff fffff.fffff ff.fff iiii i
+# The parameters in each line are:
+#YYY MM DD hh.h hh._m        days      days_m     Kp   ap D
+2024 05 08 00.0 01.50 33731.00000 33731.06250  1.000    4 1
+2024 05 08 03.0 04.50 33731.12500 33731.18750  1.667    6 1
+2024 05 08 06.0 07.50 33731.25000 33731.31250  1.667    6 1
+2024 05 08 09.0 10.50 33731.37500 33731.43750  1.667    6 1
+2024 05 08 12.0 13.50 33731.50000 33731.56250  1.667    6 1
+2024 05 08 15.0 16.50 33731.62500 33731.68750  2.000    7 1
+2024 05 08 18.0 19.50 33731.75000 33731.81250  0.667    3 1
+2024 05 08 21.0 22.50 33731.87500 33731.93750  1.000    4 1
+2024 05 09 00.0 01.50 33732.00000 33732.06250  0.667    3 1
+2024 05 09 03.0 04.50 33732.12500 33732.18750  1.333    5 1
+2024 05 09 06.0 07.50 33732.25000 33732.31250  0.667    3 1
+2024 05 09 09.0 10.50 33732.37500 33732.43750  1.333    5 1
+2024 05 09 12.0 13.50 33732.50000 33732.56250  1.000    4 1
+2024 05 09 15.0 16.50 33732.62500 33732.68750  1.000    4 1
+2024 05 09 18.0 19.50 33732.75000 33732.81250  2.333    9 1
+2024 05 09 21.0 22.50 33732.87500 33732.93750  2.000    7 1
+2024 05 10 00.0 01.50 33733.00000 33733.06250  2.667   12 1
+2024 05 10 03.0 04.50 33733.12500 33733.18750  2.667   12 1
+2024 05 10 06.0 07.50 33733.25000 33733.31250  2.333    9 1
+2024 05 10 09.0 10.50 33733.37500 33733.43750  2.000    7 1
+2024 05 10 12.0 13.50 33733.50000 33733.56250  3.667   22 1
+2024 05 10 15.0 16.50 33733.62500 33733.68750  7.667  179 1
+2024 05 10 18.0 19.50 33733.75000 33733.81250  8.667  300 1
+2024 05 10 21.0 22.50 33733.87500 33733.93750  8.667  300 1
+2024 05 11 00.0 01.50 33734.00000 33734.06250  9.000  400 1
+2024 05 11 03.0 04.50 33734.12500 33734.18750  8.333  236 1
+2024 05 11 06.0 07.50 33734.25000 33734.31250  8.333  236 1
+2024 05 11 09.0 10.50 33734.37500 33734.43750  9.000  400 1
+2024 05 11 12.0 13.50 33734.50000 33734.56250  8.667  300 1
+2024 05 11 15.0 16.50 33734.62500 33734.68750  8.333  236 1
+2024 05 11 18.0 19.50 33734.75000 33734.81250  7.667  179 1
+2024 05 11 21.0 22.50 33734.87500 33734.93750  7.667  179 1
+2024 05 12 00.0 01.50 33735.00000 33735.06250  6.333   94 1
+2024 05 12 03.0 04.50 33735.12500 33735.18750  7.000  132 1
+2024 05 12 06.0 07.50 33735.25000 33735.31250  3.667   22 1
+2024 05 12 09.0 10.50 33735.37500 33735.43750  4.333   32 1
+2024 05 12 12.0 13.50 33735.50000 33735.56250  2.000    7 1
+2024 05 12 15.0 16.50 33735.62500 33735.68750  3.000   15 1
+2024 05 12 18.0 19.50 33735.75000 33735.81250  4.000   27 1
+2024 05 12 21.0 22.50 33735.87500 33735.93750  6.333   94 1
+2024 05 13 00.0 01.50 33736.00000 33736.06250  5.333   56 1
+2024 05 13 03.0 04.50 33736.12500 33736.18750  6.000   80 1
+2024 05 13 06.0 07.50 33736.25000 33736.31250  3.333   18 1
+2024 05 13 09.0 10.50 33736.37500 33736.43750  2.667   12 1
+2024 05 13 12.0 13.50 33736.50000 33736.56250  3.333   18 1
+2024 05 13 15.0 16.50 33736.62500 33736.68750  2.667   12 1
+2024 05 13 18.0 19.50 33736.75000 33736.81250  2.333    9 1
+2024 05 13 21.0 22.50 33736.87500 33736.93750  2.333    9 1
+2024 05 14 00.0 01.50 33737.00000 33737.06250  1.333    5 1
+2024 05 14 03.0 04.50 33737.12500 33737.18750  1.333    5 1
+2024 05 14 06.0 07.50 33737.25000 33737.31250  1.333    5 1
+2024 05 14 09.0 10.50 33737.37500 33737.43750  2.333    9 1
+2024 05 14 12.0 13.50 33737.50000 33737.56250  2.333    9 1
+2024 05 14 15.0 16.50 33737.62500 33737.68750  1.667    6 1
+2024 05 14 18.0 19.50 33737.75000 33737.81250  2.000    7 1
+2024 05 14 21.0 22.50 33737.87500 33737.93750  0.667    3 1
