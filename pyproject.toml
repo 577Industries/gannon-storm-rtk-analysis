@@ -33,6 +33,8 @@
             "pandas>=2.2",
             "numpy>=1.26",
             "python-dateutil>=2.9",
+            "matplotlib>=3.8",
+            "georinex>=1.16",
         ]
 
         [project.optional-dependencies]
@@ -50,6 +52,11 @@
             "mkdocs>=1.6",
             "mkdocs-material>=9.5",
             "mkdocstrings[python]>=0.25",
+        ]
+        # cartopy has system C-deps (PROJ, GEOS) and is intentionally optional.
+        # Install with `pip install '.[maps]'` when those libs are available.
+        maps = [
+            "cartopy>=0.23",
         ]
 
         [project.urls]
@@ -99,9 +106,12 @@
 
         [tool.pytest.ini_options]
         minversion = "8.0"
-        addopts = "-ra --strict-markers --cov=gannon_analysis --cov-report=term-missing --cov-report=xml"
+        addopts = "-ra --strict-markers --cov=gannon_analysis --cov-report=term-missing --cov-report=xml -m 'not integration'"
         testpaths = ["tests"]
         asyncio_mode = "auto"
+        markers = [
+            "integration: tests that hit live network endpoints (NGS CORS / GFZ / Kyoto). Skipped by default in CI; run via `pytest -m integration`.",
+        ]
 
         [tool.coverage.run]
         branch = true
