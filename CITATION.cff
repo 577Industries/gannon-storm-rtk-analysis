@@ -13,8 +13,8 @@ keywords:
   - machine learning
   - provenance
 license: Apache-2.0
-repository-code: "https://github.com/577-Industries/gannon-storm-rtk-analysis"
-url: "https://github.com/577-Industries/gannon-storm-rtk-analysis"
+repository-code: "https://github.com/577Industries/gannon-storm-rtk-analysis"
+url: "https://github.com/577Industries/gannon-storm-rtk-analysis"
 type: software
 version: 0.0.0
 date-released: "2026-05-17"

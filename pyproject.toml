@@ -53,10 +53,10 @@
         ]
 
         [project.urls]
-        Homepage = "https://github.com/577-Industries/gannon-storm-rtk-analysis"
-        Repository = "https://github.com/577-Industries/gannon-storm-rtk-analysis.git"
-        Issues = "https://github.com/577-Industries/gannon-storm-rtk-analysis/issues"
-        Documentation = "https://577-industries.github.io/gannon-storm-rtk-analysis"
+        Homepage = "https://github.com/577Industries/gannon-storm-rtk-analysis"
+        Repository = "https://github.com/577Industries/gannon-storm-rtk-analysis.git"
+        Issues = "https://github.com/577Industries/gannon-storm-rtk-analysis/issues"
+        Documentation = "https://577industries.github.io/gannon-storm-rtk-analysis"
 
         [tool.hatch.version]
         path = "src/gannon_analysis/__init__.py"

@@ -1,6 +1,6 @@
 # gannon-storm-rtk-analysis
 
-[![CI](https://github.com/577-Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/577-Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![CI](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml) [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PyPI](https://img.shields.io/pypi/v/gannon-storm-rtk-analysis.svg)](https://pypi.org/project/gannon-storm-rtk-analysis/)
 
 > Retrospective analysis of RTK-GNSS positioning error during the May 10-12, 2024 Gannon G5 superstorm. Pulls NGS CORS RINEX for Iowa, Illinois, Indiana, and Ohio; computes per-station positioning error envelopes and correlates with NOAA SWPC indices and proton flux. Reproducible notebooks + blog post + result figures.
@@ -27,10 +27,10 @@ print(gannon_analysis.__version__)
 
 ## Documentation
 
-- **Master plan**: see [`helios-program`](https://github.com/577-Industries/helios-program) (private; internal team)
+- **Master plan**: see [`helios-program`](https://github.com/577Industries/helios-program) (private; internal team)
 - **Specification**: docs published at the project's docs site when available
 - **Provenance**: every output traces to its upstream model and transformation chain
-  via [`helios-provenance-spec`](https://github.com/577-Industries/helios-provenance-spec)
+  via [`helios-provenance-spec`](https://github.com/577Industries/helios-provenance-spec)
 
 ## License
 
@@ -48,6 +48,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Substantive changes should be discussed 
   title        = { gannon-storm-rtk-analysis: Retrospective analysis of RTK-GNSS positioning error during the May 10-12, 2024 Gannon G5 superstorm },
   year         = {2026},
   publisher    = {577 Industries Inc.},
-  url          = {https://github.com/577-Industries/gannon-storm-rtk-analysis},
+  url          = {https://github.com/577Industries/gannon-storm-rtk-analysis},
 }
 ```
