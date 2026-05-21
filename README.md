@@ -14,9 +14,9 @@
 
 > **Across 25 of 25 NGS CORS stations spanning the IA, IL, IN, OH corridor,
 > 2D horizontal error exceeded the agronomic 2.5 cm planting threshold for
-> an aggregate of ~1,300 station-hours during May 10-12, 2024**
-> (peak Kp=9.0, Dst minimum=-406 nT, peak storm-window 95th-percentile 2D
-> error ~3.0 m).
+> an aggregate of 1,302 station-hours during May 10-12, 2024**
+> (peak Kp=9.0, Dst minimum=-412 nT [Kyoto WDC final reanalysis], peak
+> storm-window 95th-percentile 2D error ~3.0 m).
 
 ![Regional 2D error vs time](results/figures/fig-01-regional-error-vs-time.png)
 
@@ -26,7 +26,7 @@ Per-station, per-day breakdown: [`results/quantitative.md`](results/quantitative
 
 This is **Artifact D** of the **HELIOS** program (577 Industries' NASA SBIR
 Phase I, subtopic SPWX.1.S26A — Advanced Data-Driven Applications for Space
-Weather R2O2R). The artifact converts proposal §1.3 (the Gannon case study)
+Weather R2O2R). The artifact converts proposal §A (the Gannon case study)
 from a story into a reproducible result.
 
 v0.1.0 (pre-stable). The positioning model in v1 is **climatological** — it
@@ -105,7 +105,7 @@ press: [`blog-post/2026-05-17-when-the-sky-stopped-the-tractors.md`](blog-post/2
 
 ## Documentation
 
-- Master plan: [`helios-program`](https://github.com/577Industries/helios-program) (private; internal team)
+- Master plan: [`helios-program`](https://github.com/577Industries/helios-program) (public; reviewer entry point)
 - Methodology: [`docs/methodology.md`](docs/methodology.md)
 - Provenance schema (sibling artifact): [`helios-provenance-spec`](https://github.com/577Industries/helios-provenance-spec)
 
