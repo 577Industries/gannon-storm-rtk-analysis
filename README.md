@@ -1,14 +1,18 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-dark.svg">
+  <img alt="577 Industries" height="44" src="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-light.svg">
+</picture>
+
 # gannon-storm-rtk-analysis
 
-[![CI](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![PyPI](https://img.shields.io/pypi/v/gannon-storm-rtk-analysis.svg)](https://pypi.org/project/gannon-storm-rtk-analysis/)
+`HELIOS` · [program overview](https://github.com/577Industries#helios--calibrated-heliophysics-fusion)
 
-> Retrospective analysis of RTK-GNSS positioning error during the May 10-12,
-> 2024 Gannon G5 superstorm. Pulls NGS CORS RINEX for 25 stations across
-> Iowa, Illinois, Indiana, and Ohio; computes per-station 2D horizontal
-> error envelopes; correlates with NOAA / GFZ Kp and Kyoto WDC Dst.
-> Reproducible notebooks + blog post + result figures.
+**Retrospective RTK-GNSS positioning error analysis during the May 10-12, 2024 Gannon G5 superstorm.**
+
+[![ci](https://img.shields.io/github/actions/workflow/status/577Industries/gannon-storm-rtk-analysis/ci.yml?style=flat-square&label=ci)](https://github.com/577Industries/gannon-storm-rtk-analysis/actions/workflows/ci.yml)
+[![release](https://img.shields.io/github/v/release/577Industries/gannon-storm-rtk-analysis?style=flat-square)](https://github.com/577Industries/gannon-storm-rtk-analysis/releases)
+[![license](https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square)](LICENSE)
+[![docs](https://img.shields.io/badge/docs-live-009688?style=flat-square)](https://577industries.github.io/gannon-storm-rtk-analysis/)
 
 ## Headline result (v0.1.0)
 
