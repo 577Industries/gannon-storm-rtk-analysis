@@ -63,6 +63,7 @@ The 2D error column ``h_error_2d_m`` is the model's per-epoch 1-sigma estimate.
 
 from __future__ import annotations
 
+import hashlib
 import logging
 import math
 import warnings
@@ -74,6 +75,18 @@ import numpy as np
 import pandas as pd
 
 from .stations import CorsStation
+
+
+def _stable_key(text: str) -> int:
+    """Return a process-stable 32-bit key derived from ``text``.
+
+    Python salts :func:`hash` for ``str`` per process (PYTHONHASHSEED), so
+    offsetting ``rng_seed`` by ``hash(station_id)`` would draw a different
+    error realisation on every run despite the caller supplying a fixed
+    seed. SHA-256 is stable across processes and machines.
+    """
+    return int.from_bytes(hashlib.sha256(text.encode("utf-8")).digest()[:4], "big")
+
 
 logger = logging.getLogger(__name__)
 
@@ -231,7 +244,7 @@ def solve_spp(
         geomag_lat_deg=station.latitude_deg,
     )
 
-    rng = np.random.default_rng(rng_seed + hash(station.station_id) % 2**32)
+    rng = np.random.default_rng(rng_seed + _stable_key(station.station_id) % 2**32)
     # 2D horizontal error magnitude: |R| where R is a 2-vector with N(0, sigma)
     # per component — Rayleigh distribution, mean = sigma * sqrt(pi/2).
     east = rng.normal(0.0, sigma_arr)
